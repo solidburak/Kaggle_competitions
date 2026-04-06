@@ -1,0 +1,336 @@
+ 30-03-2026 11:49:01:540 [pid=133313 tid=133313] WARN   0:140 unable to load,  liburcu-bp.so.6 
+
+ 30-03-2026 11:49:01:542 [pid=133313 tid=133313] WARN   0:140 unable to load,  liburcu-bp.so.1 
+
+ 30-03-2026 11:49:01:932 [pid=133313 tid=133313] WARN   0:184 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 30-03-2026 11:49:01:932 [pid=133313 tid=133313] NOTICE  cufio-drv:1146 running in compatible mode
+ 30-03-2026 11:49:01:933 [pid=133313 tid=133313] WARN   0:81 cannot find json field: properties.gpu_bounce_buffer_slab_config.slab_size_kb 0 3
+ 30-03-2026 11:49:01:933 [pid=133313 tid=133313] WARN   0:465 Using legacy GPU bounce buffer configuration
+ 30-03-2026 11:49:01:945 [pid=133313 tid=133313] WARN   0:140 unable to load,  libnuma.so.1.0.0 
+
+ 30-03-2026 11:49:01:946 [pid=133313 tid=133313] ERROR  0:98 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 30-03-2026 11:49:01:946 [pid=133313 tid=133313] ERROR  cufio_core:1072 Error Loading numa symbols, please install libnuma to avoid any performance issues
+ 30-03-2026 11:49:03:178 [pid=133313 tid=133313] NOTICE  cufio-drv:924 GPU deviceid: 0 ( NVIDIA GeForce GTX 1650 ) no native GDS - compat mode only
+ 30-03-2026 11:49:03:179 [pid=133313 tid=133523] ERROR  0:58 NUMA not available
+ 30-03-2026 11:49:03:179 [pid=133313 tid=133525] ERROR  0:58 NUMA not available
+ 30-03-2026 11:49:03:179 [pid=133313 tid=133526] ERROR  0:58 NUMA not available
+ 30-03-2026 11:49:03:179 [pid=133313 tid=133527] ERROR  0:58 NUMA not available
+ 30-03-2026 11:49:03:179 [pid=133313 tid=133529] ERROR  0:58 NUMA not available
+ 30-03-2026 11:49:03:179 [pid=133313 tid=133528] ERROR  0:58 NUMA not available
+ 30-03-2026 11:49:03:179 [pid=133313 tid=133524] ERROR  0:58 NUMA not available
+ 30-03-2026 11:49:03:179 [pid=133313 tid=133530] ERROR  0:58 NUMA not available
+ 30-03-2026 11:49:03:311 [pid=133313 tid=133313] ERROR  cufio-fs:412 error creating udev_device for block device dev_no: 0:28
+ 30-03-2026 11:49:03:390 [pid=133313 tid=133534] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:390 [pid=133313 tid=133533] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:390 [pid=133313 tid=133531] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:390 [pid=133313 tid=133532] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:443 [pid=133313 tid=133531] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:445 [pid=133313 tid=133534] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:446 [pid=133313 tid=133532] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:457 [pid=133313 tid=133533] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:458 [pid=133313 tid=133534] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:458 [pid=133313 tid=133532] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:460 [pid=133313 tid=133531] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:470 [pid=133313 tid=133533] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:471 [pid=133313 tid=133534] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:472 [pid=133313 tid=133532] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:473 [pid=133313 tid=133531] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:480 [pid=133313 tid=133533] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:560 [pid=133313 tid=133531] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:561 [pid=133313 tid=133534] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:561 [pid=133313 tid=133533] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 11:49:03:561 [pid=133313 tid=133532] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fa2c6000000 curesult =  0
+ 30-03-2026 13:20:50:492 [pid=8897 tid=8897] WARN   0:140 unable to load,  liburcu-bp.so.6 
+
+ 30-03-2026 13:20:50:493 [pid=8897 tid=8897] WARN   0:140 unable to load,  liburcu-bp.so.1 
+
+ 30-03-2026 13:20:50:931 [pid=8897 tid=8897] WARN   0:184 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 30-03-2026 13:20:50:932 [pid=8897 tid=8897] NOTICE  cufio-drv:1146 running in compatible mode
+ 30-03-2026 13:20:50:932 [pid=8897 tid=8897] WARN   0:81 cannot find json field: properties.gpu_bounce_buffer_slab_config.slab_size_kb 0 3
+ 30-03-2026 13:20:50:932 [pid=8897 tid=8897] WARN   0:465 Using legacy GPU bounce buffer configuration
+ 30-03-2026 13:20:50:940 [pid=8897 tid=8897] WARN   0:140 unable to load,  libnuma.so.1.0.0 
+
+ 30-03-2026 13:20:50:940 [pid=8897 tid=8897] ERROR  0:98 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 30-03-2026 13:20:50:940 [pid=8897 tid=8897] ERROR  cufio_core:1072 Error Loading numa symbols, please install libnuma to avoid any performance issues
+ 30-03-2026 13:20:51:570 [pid=8897 tid=8897] NOTICE  cufio-drv:924 GPU deviceid: 0 ( NVIDIA GeForce GTX 1650 ) no native GDS - compat mode only
+ 30-03-2026 13:20:51:570 [pid=8897 tid=8987] ERROR  0:58 NUMA not available
+ 30-03-2026 13:20:51:570 [pid=8897 tid=8989] ERROR  0:58 NUMA not available
+ 30-03-2026 13:20:51:570 [pid=8897 tid=8990] ERROR  0:58 NUMA not available
+ 30-03-2026 13:20:51:570 [pid=8897 tid=8991] ERROR  0:58 NUMA not available
+ 30-03-2026 13:20:51:570 [pid=8897 tid=8993] ERROR  0:58 NUMA not available
+ 30-03-2026 13:20:51:570 [pid=8897 tid=8994] ERROR  0:58 NUMA not available
+ 30-03-2026 13:20:51:570 [pid=8897 tid=8992] ERROR  0:58 NUMA not available
+ 30-03-2026 13:20:51:570 [pid=8897 tid=8988] ERROR  0:58 NUMA not available
+ 30-03-2026 13:20:51:702 [pid=8897 tid=8897] ERROR  cufio-fs:412 error creating udev_device for block device dev_no: 0:50
+ 30-03-2026 13:20:51:732 [pid=8897 tid=8996] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:732 [pid=8897 tid=8997] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:732 [pid=8897 tid=8995] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:732 [pid=8897 tid=8998] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:744 [pid=8897 tid=8995] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:744 [pid=8897 tid=8997] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:745 [pid=8897 tid=8996] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:746 [pid=8897 tid=8998] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:755 [pid=8897 tid=8995] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:756 [pid=8897 tid=8997] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:757 [pid=8897 tid=8996] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:759 [pid=8897 tid=8998] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:768 [pid=8897 tid=8995] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:769 [pid=8897 tid=8997] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:769 [pid=8897 tid=8996] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:775 [pid=8897 tid=8998] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:802 [pid=8897 tid=8996] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:802 [pid=8897 tid=8997] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:802 [pid=8897 tid=8995] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 30-03-2026 13:20:51:802 [pid=8897 tid=8998] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f23fe000000 curesult =  0
+ 31-03-2026 00:03:19:968 [pid=42653 tid=42653] WARN   0:140 unable to load,  liburcu-bp.so.6 
+
+ 31-03-2026 00:03:19:969 [pid=42653 tid=42653] WARN   0:140 unable to load,  liburcu-bp.so.1 
+
+ 31-03-2026 00:03:20:200 [pid=42653 tid=42653] WARN   0:184 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 31-03-2026 00:03:20:200 [pid=42653 tid=42653] NOTICE  cufio-drv:1146 running in compatible mode
+ 31-03-2026 00:03:20:201 [pid=42653 tid=42653] WARN   0:81 cannot find json field: properties.gpu_bounce_buffer_slab_config.slab_size_kb 0 3
+ 31-03-2026 00:03:20:201 [pid=42653 tid=42653] WARN   0:465 Using legacy GPU bounce buffer configuration
+ 31-03-2026 00:03:20:210 [pid=42653 tid=42653] WARN   0:140 unable to load,  libnuma.so.1.0.0 
+
+ 31-03-2026 00:03:20:210 [pid=42653 tid=42653] ERROR  0:98 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 31-03-2026 00:03:20:210 [pid=42653 tid=42653] ERROR  cufio_core:1072 Error Loading numa symbols, please install libnuma to avoid any performance issues
+ 31-03-2026 00:03:20:922 [pid=42653 tid=42653] NOTICE  cufio-drv:924 GPU deviceid: 0 ( NVIDIA GeForce GTX 1650 ) no native GDS - compat mode only
+ 31-03-2026 00:03:20:923 [pid=42653 tid=42713] ERROR  0:58 NUMA not available
+ 31-03-2026 00:03:20:923 [pid=42653 tid=42715] ERROR  0:58 NUMA not available
+ 31-03-2026 00:03:20:923 [pid=42653 tid=42714] ERROR  0:58 NUMA not available
+ 31-03-2026 00:03:20:923 [pid=42653 tid=42716] ERROR  0:58 NUMA not available
+ 31-03-2026 00:03:20:923 [pid=42653 tid=42717] ERROR  0:58 NUMA not available
+ 31-03-2026 00:03:20:923 [pid=42653 tid=42718] ERROR  0:58 NUMA not available
+ 31-03-2026 00:03:20:923 [pid=42653 tid=42720] ERROR  0:58 NUMA not available
+ 31-03-2026 00:03:20:923 [pid=42653 tid=42719] ERROR  0:58 NUMA not available
+ 31-03-2026 00:03:21:30 [pid=42653 tid=42653] ERROR  cufio-fs:412 error creating udev_device for block device dev_no: 0:50
+ 31-03-2026 00:03:21:56 [pid=42653 tid=42723] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:56 [pid=42653 tid=42724] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:56 [pid=42653 tid=42721] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:56 [pid=42653 tid=42722] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:67 [pid=42653 tid=42723] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:69 [pid=42653 tid=42722] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:69 [pid=42653 tid=42724] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:70 [pid=42653 tid=42721] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:79 [pid=42653 tid=42723] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:80 [pid=42653 tid=42722] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:81 [pid=42653 tid=42724] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:85 [pid=42653 tid=42721] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:89 [pid=42653 tid=42723] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:90 [pid=42653 tid=42722] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:93 [pid=42653 tid=42724] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:95 [pid=42653 tid=42721] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:127 [pid=42653 tid=42723] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:127 [pid=42653 tid=42722] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:127 [pid=42653 tid=42721] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 00:03:21:127 [pid=42653 tid=42724] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3cf0000000 curesult =  0
+ 31-03-2026 18:02:38:801 [pid=4205 tid=4205] WARN   0:140 unable to load,  liburcu-bp.so.6 
+
+ 31-03-2026 18:02:38:802 [pid=4205 tid=4205] WARN   0:140 unable to load,  liburcu-bp.so.1 
+
+ 31-03-2026 18:02:38:990 [pid=4205 tid=4205] WARN   0:184 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 31-03-2026 18:02:38:990 [pid=4205 tid=4205] NOTICE  cufio-drv:1146 running in compatible mode
+ 31-03-2026 18:02:38:990 [pid=4205 tid=4205] WARN   0:81 cannot find json field: properties.gpu_bounce_buffer_slab_config.slab_size_kb 0 3
+ 31-03-2026 18:02:38:990 [pid=4205 tid=4205] WARN   0:465 Using legacy GPU bounce buffer configuration
+ 31-03-2026 18:02:39:0 [pid=4205 tid=4205] WARN   0:140 unable to load,  libnuma.so.1.0.0 
+
+ 31-03-2026 18:02:39:0 [pid=4205 tid=4205] ERROR  0:98 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 31-03-2026 18:02:39:0 [pid=4205 tid=4205] ERROR  cufio_core:1072 Error Loading numa symbols, please install libnuma to avoid any performance issues
+ 31-03-2026 18:02:39:609 [pid=4205 tid=4205] NOTICE  cufio-drv:924 GPU deviceid: 0 ( NVIDIA GeForce GTX 1650 ) no native GDS - compat mode only
+ 31-03-2026 18:02:39:609 [pid=4205 tid=4273] ERROR  0:58 NUMA not available
+ 31-03-2026 18:02:39:609 [pid=4205 tid=4275] ERROR  0:58 NUMA not available
+ 31-03-2026 18:02:39:609 [pid=4205 tid=4274] ERROR  0:58 NUMA not available
+ 31-03-2026 18:02:39:609 [pid=4205 tid=4276] ERROR  0:58 NUMA not available
+ 31-03-2026 18:02:39:609 [pid=4205 tid=4278] ERROR  0:58 NUMA not available
+ 31-03-2026 18:02:39:609 [pid=4205 tid=4279] ERROR  0:58 NUMA not available
+ 31-03-2026 18:02:39:609 [pid=4205 tid=4280] ERROR  0:58 NUMA not available
+ 31-03-2026 18:02:39:609 [pid=4205 tid=4277] ERROR  0:58 NUMA not available
+ 31-03-2026 18:02:39:734 [pid=4205 tid=4205] ERROR  cufio-fs:412 error creating udev_device for block device dev_no: 0:40
+ 31-03-2026 18:02:39:751 [pid=4205 tid=4283] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:751 [pid=4205 tid=4284] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:751 [pid=4205 tid=4281] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:751 [pid=4205 tid=4282] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:760 [pid=4205 tid=4283] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:763 [pid=4205 tid=4284] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:764 [pid=4205 tid=4282] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:766 [pid=4205 tid=4281] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:774 [pid=4205 tid=4283] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:775 [pid=4205 tid=4284] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:775 [pid=4205 tid=4282] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:779 [pid=4205 tid=4281] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:784 [pid=4205 tid=4284] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:784 [pid=4205 tid=4283] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:788 [pid=4205 tid=4282] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:791 [pid=4205 tid=4281] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:823 [pid=4205 tid=4283] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:823 [pid=4205 tid=4281] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:823 [pid=4205 tid=4282] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:02:39:823 [pid=4205 tid=4284] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fc7e2000000 curesult =  0
+ 31-03-2026 18:46:45:708 [pid=17482 tid=17482] WARN   0:140 unable to load,  liburcu-bp.so.6 
+
+ 31-03-2026 18:46:45:709 [pid=17482 tid=17482] WARN   0:140 unable to load,  liburcu-bp.so.1 
+
+ 31-03-2026 18:46:45:902 [pid=17482 tid=17482] WARN   0:184 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 31-03-2026 18:46:45:902 [pid=17482 tid=17482] NOTICE  cufio-drv:1146 running in compatible mode
+ 31-03-2026 18:46:45:903 [pid=17482 tid=17482] WARN   0:81 cannot find json field: properties.gpu_bounce_buffer_slab_config.slab_size_kb 0 3
+ 31-03-2026 18:46:45:903 [pid=17482 tid=17482] WARN   0:465 Using legacy GPU bounce buffer configuration
+ 31-03-2026 18:46:45:911 [pid=17482 tid=17482] WARN   0:140 unable to load,  libnuma.so.1.0.0 
+
+ 31-03-2026 18:46:45:911 [pid=17482 tid=17482] ERROR  0:98 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 31-03-2026 18:46:45:911 [pid=17482 tid=17482] ERROR  cufio_core:1072 Error Loading numa symbols, please install libnuma to avoid any performance issues
+ 31-03-2026 18:46:46:543 [pid=17482 tid=17482] NOTICE  cufio-drv:924 GPU deviceid: 0 ( NVIDIA GeForce GTX 1650 ) no native GDS - compat mode only
+ 31-03-2026 18:46:46:543 [pid=17482 tid=17615] ERROR  0:58 NUMA not available
+ 31-03-2026 18:46:46:543 [pid=17482 tid=17617] ERROR  0:58 NUMA not available
+ 31-03-2026 18:46:46:543 [pid=17482 tid=17618] ERROR  0:58 NUMA not available
+ 31-03-2026 18:46:46:544 [pid=17482 tid=17619] ERROR  0:58 NUMA not available
+ 31-03-2026 18:46:46:544 [pid=17482 tid=17622] ERROR  0:58 NUMA not available
+ 31-03-2026 18:46:46:544 [pid=17482 tid=17621] ERROR  0:58 NUMA not available
+ 31-03-2026 18:46:46:544 [pid=17482 tid=17620] ERROR  0:58 NUMA not available
+ 31-03-2026 18:46:46:544 [pid=17482 tid=17616] ERROR  0:58 NUMA not available
+ 31-03-2026 18:46:46:671 [pid=17482 tid=17482] ERROR  cufio-fs:412 error creating udev_device for block device dev_no: 0:40
+ 31-03-2026 18:46:46:697 [pid=17482 tid=17626] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:697 [pid=17482 tid=17624] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:697 [pid=17482 tid=17623] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:697 [pid=17482 tid=17625] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:703 [pid=17482 tid=17625] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:709 [pid=17482 tid=17624] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:710 [pid=17482 tid=17626] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:711 [pid=17482 tid=17623] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:719 [pid=17482 tid=17625] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:720 [pid=17482 tid=17624] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:721 [pid=17482 tid=17626] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:722 [pid=17482 tid=17623] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:731 [pid=17482 tid=17624] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:732 [pid=17482 tid=17625] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:733 [pid=17482 tid=17626] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:738 [pid=17482 tid=17623] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:764 [pid=17482 tid=17624] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:764 [pid=17482 tid=17626] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:764 [pid=17482 tid=17625] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:46:46:764 [pid=17482 tid=17623] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f3d2c000000 curesult =  0
+ 31-03-2026 18:48:03:95 [pid=18206 tid=18206] WARN   0:140 unable to load,  liburcu-bp.so.6 
+
+ 31-03-2026 18:48:03:95 [pid=18206 tid=18206] WARN   0:140 unable to load,  liburcu-bp.so.1 
+
+ 31-03-2026 18:48:03:344 [pid=18206 tid=18206] WARN   0:184 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 31-03-2026 18:48:03:344 [pid=18206 tid=18206] NOTICE  cufio-drv:1146 running in compatible mode
+ 31-03-2026 18:48:03:345 [pid=18206 tid=18206] WARN   0:81 cannot find json field: properties.gpu_bounce_buffer_slab_config.slab_size_kb 0 3
+ 31-03-2026 18:48:03:345 [pid=18206 tid=18206] WARN   0:465 Using legacy GPU bounce buffer configuration
+ 31-03-2026 18:48:03:354 [pid=18206 tid=18206] WARN   0:140 unable to load,  libnuma.so.1.0.0 
+
+ 31-03-2026 18:48:03:354 [pid=18206 tid=18206] ERROR  0:98 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 31-03-2026 18:48:03:354 [pid=18206 tid=18206] ERROR  cufio_core:1072 Error Loading numa symbols, please install libnuma to avoid any performance issues
+ 31-03-2026 18:48:03:971 [pid=18206 tid=18206] NOTICE  cufio-drv:924 GPU deviceid: 0 ( NVIDIA GeForce GTX 1650 ) no native GDS - compat mode only
+ 31-03-2026 18:48:03:971 [pid=18206 tid=18266] ERROR  0:58 NUMA not available
+ 31-03-2026 18:48:03:971 [pid=18206 tid=18267] ERROR  0:58 NUMA not available
+ 31-03-2026 18:48:03:971 [pid=18206 tid=18268] ERROR  0:58 NUMA not available
+ 31-03-2026 18:48:03:971 [pid=18206 tid=18269] ERROR  0:58 NUMA not available
+ 31-03-2026 18:48:03:971 [pid=18206 tid=18270] ERROR  0:58 NUMA not available
+ 31-03-2026 18:48:03:971 [pid=18206 tid=18271] ERROR  0:58 NUMA not available
+ 31-03-2026 18:48:03:971 [pid=18206 tid=18272] ERROR  0:58 NUMA not available
+ 31-03-2026 18:48:03:971 [pid=18206 tid=18273] ERROR  0:58 NUMA not available
+ 31-03-2026 18:48:04:79 [pid=18206 tid=18206] ERROR  cufio-fs:412 error creating udev_device for block device dev_no: 0:40
+ 31-03-2026 18:48:04:100 [pid=18206 tid=18276] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:100 [pid=18206 tid=18275] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:100 [pid=18206 tid=18277] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:100 [pid=18206 tid=18274] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:109 [pid=18206 tid=18275] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:110 [pid=18206 tid=18277] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:112 [pid=18206 tid=18274] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:113 [pid=18206 tid=18276] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:122 [pid=18206 tid=18275] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:123 [pid=18206 tid=18277] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:123 [pid=18206 tid=18274] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:124 [pid=18206 tid=18276] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:133 [pid=18206 tid=18275] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:134 [pid=18206 tid=18277] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:135 [pid=18206 tid=18274] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:139 [pid=18206 tid=18276] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:162 [pid=18206 tid=18275] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:162 [pid=18206 tid=18276] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:163 [pid=18206 tid=18274] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 18:48:04:163 [pid=18206 tid=18277] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f6d52000000 curesult =  0
+ 31-03-2026 20:11:59:194 [pid=26336 tid=26336] WARN   0:140 unable to load,  liburcu-bp.so.6 
+
+ 31-03-2026 20:11:59:195 [pid=26336 tid=26336] WARN   0:140 unable to load,  liburcu-bp.so.1 
+
+ 31-03-2026 20:11:59:397 [pid=26336 tid=26336] WARN   0:184 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 31-03-2026 20:11:59:397 [pid=26336 tid=26336] NOTICE  cufio-drv:1146 running in compatible mode
+ 31-03-2026 20:11:59:398 [pid=26336 tid=26336] WARN   0:81 cannot find json field: properties.gpu_bounce_buffer_slab_config.slab_size_kb 0 3
+ 31-03-2026 20:11:59:398 [pid=26336 tid=26336] WARN   0:465 Using legacy GPU bounce buffer configuration
+ 31-03-2026 20:11:59:406 [pid=26336 tid=26336] WARN   0:140 unable to load,  libnuma.so.1.0.0 
+
+ 31-03-2026 20:11:59:406 [pid=26336 tid=26336] ERROR  0:98 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 31-03-2026 20:11:59:406 [pid=26336 tid=26336] ERROR  cufio_core:1072 Error Loading numa symbols, please install libnuma to avoid any performance issues
+ 31-03-2026 20:12:00:79 [pid=26336 tid=26336] NOTICE  cufio-drv:924 GPU deviceid: 0 ( NVIDIA GeForce GTX 1650 ) no native GDS - compat mode only
+ 31-03-2026 20:12:00:80 [pid=26336 tid=26441] ERROR  0:58 NUMA not available
+ 31-03-2026 20:12:00:80 [pid=26336 tid=26443] ERROR  0:58 NUMA not available
+ 31-03-2026 20:12:00:80 [pid=26336 tid=26445] ERROR  0:58 NUMA not available
+ 31-03-2026 20:12:00:80 [pid=26336 tid=26446] ERROR  0:58 NUMA not available
+ 31-03-2026 20:12:00:80 [pid=26336 tid=26442] ERROR  0:58 NUMA not available
+ 31-03-2026 20:12:00:80 [pid=26336 tid=26444] ERROR  0:58 NUMA not available
+ 31-03-2026 20:12:00:80 [pid=26336 tid=26447] ERROR  0:58 NUMA not available
+ 31-03-2026 20:12:00:80 [pid=26336 tid=26448] ERROR  0:58 NUMA not available
+ 31-03-2026 20:12:00:187 [pid=26336 tid=26336] ERROR  cufio-fs:412 error creating udev_device for block device dev_no: 0:40
+ 31-03-2026 20:12:00:209 [pid=26336 tid=26451] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:209 [pid=26336 tid=26452] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:209 [pid=26336 tid=26449] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:209 [pid=26336 tid=26450] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:218 [pid=26336 tid=26451] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:221 [pid=26336 tid=26449] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:222 [pid=26336 tid=26452] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:225 [pid=26336 tid=26450] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:229 [pid=26336 tid=26451] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:283 [pid=26336 tid=26449] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:283 [pid=26336 tid=26452] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:286 [pid=26336 tid=26450] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:292 [pid=26336 tid=26451] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:295 [pid=26336 tid=26449] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:295 [pid=26336 tid=26452] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:299 [pid=26336 tid=26450] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:329 [pid=26336 tid=26449] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:329 [pid=26336 tid=26452] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:329 [pid=26336 tid=26451] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 20:12:00:329 [pid=26336 tid=26450] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7f319a000000 curesult =  0
+ 31-03-2026 21:06:13:162 [pid=29141 tid=29141] WARN   0:140 unable to load,  liburcu-bp.so.6 
+
+ 31-03-2026 21:06:13:163 [pid=29141 tid=29141] WARN   0:140 unable to load,  liburcu-bp.so.1 
+
+ 31-03-2026 21:06:13:355 [pid=29141 tid=29141] WARN   0:184 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 31-03-2026 21:06:13:355 [pid=29141 tid=29141] NOTICE  cufio-drv:1146 running in compatible mode
+ 31-03-2026 21:06:13:356 [pid=29141 tid=29141] WARN   0:81 cannot find json field: properties.gpu_bounce_buffer_slab_config.slab_size_kb 0 3
+ 31-03-2026 21:06:13:356 [pid=29141 tid=29141] WARN   0:465 Using legacy GPU bounce buffer configuration
+ 31-03-2026 21:06:13:364 [pid=29141 tid=29141] WARN   0:140 unable to load,  libnuma.so.1.0.0 
+
+ 31-03-2026 21:06:13:364 [pid=29141 tid=29141] ERROR  0:98 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 31-03-2026 21:06:13:364 [pid=29141 tid=29141] ERROR  cufio_core:1072 Error Loading numa symbols, please install libnuma to avoid any performance issues
+ 31-03-2026 21:06:13:978 [pid=29141 tid=29141] NOTICE  cufio-drv:924 GPU deviceid: 0 ( NVIDIA GeForce GTX 1650 ) no native GDS - compat mode only
+ 31-03-2026 21:06:13:979 [pid=29141 tid=29215] ERROR  0:58 NUMA not available
+ 31-03-2026 21:06:13:979 [pid=29141 tid=29217] ERROR  0:58 NUMA not available
+ 31-03-2026 21:06:13:979 [pid=29141 tid=29218] ERROR  0:58 NUMA not available
+ 31-03-2026 21:06:13:979 [pid=29141 tid=29216] ERROR  0:58 NUMA not available
+ 31-03-2026 21:06:13:979 [pid=29141 tid=29219] ERROR  0:58 NUMA not available
+ 31-03-2026 21:06:13:979 [pid=29141 tid=29220] ERROR  0:58 NUMA not available
+ 31-03-2026 21:06:13:979 [pid=29141 tid=29221] ERROR  0:58 NUMA not available
+ 31-03-2026 21:06:13:979 [pid=29141 tid=29222] ERROR  0:58 NUMA not available
+ 31-03-2026 21:06:14:89 [pid=29141 tid=29141] ERROR  cufio-fs:412 error creating udev_device for block device dev_no: 0:40
+ 31-03-2026 21:06:14:120 [pid=29141 tid=29226] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:120 [pid=29141 tid=29224] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:120 [pid=29141 tid=29223] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:120 [pid=29141 tid=29225] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:132 [pid=29141 tid=29223] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:134 [pid=29141 tid=29225] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:134 [pid=29141 tid=29226] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:134 [pid=29141 tid=29224] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:143 [pid=29141 tid=29223] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:144 [pid=29141 tid=29225] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:145 [pid=29141 tid=29226] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:149 [pid=29141 tid=29224] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:153 [pid=29141 tid=29223] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:153 [pid=29141 tid=29225] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:157 [pid=29141 tid=29226] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:160 [pid=29141 tid=29224] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:191 [pid=29141 tid=29224] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:191 [pid=29141 tid=29223] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:191 [pid=29141 tid=29225] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0
+ 31-03-2026 21:06:14:191 [pid=29141 tid=29226] WARN   cufio_core:1920 checkIfHostMem returning false for devPtr: 0x7fb388000000 curesult =  0

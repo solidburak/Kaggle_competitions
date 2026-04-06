@@ -6,5 +6,20 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# Ignore environments
+.venv/
+.ipynb_checkpoints/
+
+# Global Monorepo Ignore
+# ----------------------
+# Ignore large data/model files in any subfolder
+**/*.zip
+**/*.csv
+**/*.pkl
+**/*.pth
+**/*.parquet
+**/data/
+**/catboost_info/
+
+# Specific large files
+playground-s6e3/ultimate_churn_stack_v1.pkl
