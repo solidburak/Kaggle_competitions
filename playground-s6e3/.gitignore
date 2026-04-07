@@ -1,3 +1,4 @@
+
 # Python-generated files
 __pycache__/
 *.py[oc]
@@ -6,5 +7,20 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# Ignore environments
+.venv/
+.ipynb_checkpoints/
+
+# Global Monorepo Ignore
+# ----------------------
+# Ignore large data/model files in any subfolder
+*.zip
+*.csv
+*.pkl
+*.pth
+*.parquet
+data/
+catboost_info/
+cufile.log
+
+
