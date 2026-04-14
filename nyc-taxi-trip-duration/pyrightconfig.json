@@ -1,0 +1,13 @@
+{
+	"exclude": [
+		"**/__pycache__",
+		"**/.venv",
+		"venv",
+		"env",
+		"data",
+		"models",
+		"logs",
+		".ipynb_checkpoints"
+	],
+	"ignore": ["**/__pycache__"]
+}

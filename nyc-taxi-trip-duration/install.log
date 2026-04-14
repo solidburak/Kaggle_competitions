@@ -1,0 +1,433 @@
+Script started on 2026-04-13 01:56:50+03:00 [COMMAND="bash bash_ins_gpu_env.sh" TERM="screen-256color" TTY="/dev/pts/1" COLUMNS="234" LINES="51"]
+[2026-04-13 01:56:50] 🚀 Starting GPU environment setup...
+[2026-04-13 01:56:50] 📦 Running uv sync...
+warning: `VIRTUAL_ENV=/home/burak/envs/gpu` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+   Building cuml-cu12==24.12.0
+^C
+Script done on 2026-04-13 01:57:10+03:00 [COMMAND_EXIT_CODE="130"]
+[2026-04-13 02:51:02] 🚀 Starting GPU environment setup...
+[2026-04-13 02:51:02] 📦 Running uv sync...
+  × No solution found when resolving dependencies for split (markers: platform_machine == 'aarch64'):
+  ╰─▶ Because only libucx-cu12==1.19.0 is available and ucx-py-cu12>=0.40.0,<=0.41.0 depends on libucx-cu12>=1.15.0,<1.18, we can conclude that ucx-py-cu12>=0.40.0,<=0.41.0 cannot be used.
+      And because only the following versions of ucx-py-cu12 are available:
+          ucx-py-cu12<0.40.dev0
+          ucx-py-cu12==0.40.0
+          ucx-py-cu12>0.41.dev0
+      we can conclude that ucx-py-cu12>=0.40.dev0,<=0.41.0 cannot be used.
+      And because raft-dask-cu12==24.10.0 depends on ucx-py-cu12==0.40.* and only the following versions of raft-dask-cu12 are available:
+          raft-dask-cu12<24.10.dev0
+          raft-dask-cu12==24.10.0
+          raft-dask-cu12>24.11.dev0
+      we can conclude that raft-dask-cu12==24.10.* cannot be used.
+      And because cuml-cu12==24.10.0 depends on raft-dask-cu12==24.10.* and only the following versions of cuml-cu12 are available:
+          cuml-cu12<=24.10.0
+          cuml-cu12==24.12.0
+          cuml-cu12>25
+      we can conclude that cuml-cu12>=24.10.0,<24.12.0 cannot be used. (1)
+
+      Because only libucx-cu12==1.19.0 is available and ucx-py-cu12==0.41.0 depends on libucx-cu12>=1.15.0,<1.18, we can conclude that ucx-py-cu12==0.41.0 cannot be used.
+      And because only the following versions of ucx-py-cu12 are available:
+          ucx-py-cu12<0.41.dev0
+          ucx-py-cu12==0.41.0
+          ucx-py-cu12>0.42.dev0
+      and raft-dask-cu12==24.12.0 depends on ucx-py-cu12==0.41.*, we can conclude that raft-dask-cu12==24.12.0 cannot be used.
+      And because only the following versions of raft-dask-cu12 are available:
+          raft-dask-cu12<24.12.dev0
+          raft-dask-cu12==24.12.0
+          raft-dask-cu12>24.13.dev0
+      and cuml-cu12==24.12.0 depends on raft-dask-cu12==24.12.*, we can conclude that cuml-cu12==24.12.0 cannot be used.
+      And because we know from (1) that cuml-cu12>=24.10.0,<24.12.0 cannot be used, we can conclude that cuml-cu12>=24.10.0,<25 cannot be used.
+      And because your project depends on cuml-cu12>=24.10,<25, we can conclude that your project's requirements are unsatisfiable.
+
+      hint: `raft-dask-cu12` was requested with a pre-release marker (e.g., all of:
+          raft-dask-cu12>=24.10.dev0,<24.10.0
+          raft-dask-cu12>24.10.0,<24.11.dev0
+      ), but pre-releases weren't enabled (try: `--prerelease=allow`)
+
+      hint: `raft-dask-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (all of:
+          raft-dask-cu12>=24.10.dev0,<24.10.0
+          raft-dask-cu12>24.10.0,<24.11.dev0
+      ). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid
+      dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: `ucx-py-cu12` was requested with a pre-release marker (e.g., all of:
+          ucx-py-cu12>=0.40.dev0,<0.40.0
+          ucx-py-cu12>0.40.0,<0.41.dev0
+      ), but pre-releases weren't enabled (try: `--prerelease=allow`)
+
+      hint: `ucx-py-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (all of:
+          ucx-py-cu12>=0.40.dev0,<0.40.0
+          ucx-py-cu12>0.40.0,<0.41.dev0
+      ). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid
+      dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: `libucx-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (libucx-cu12>=1.15.0,<1.18). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default,
+      uv will only consider versions that are published on the first index that contains a given package, to avoid dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to
+      consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: `cuml-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (all of:
+          cuml-cu12>24.10.0,<24.12.0
+          cuml-cu12>24.12.0,<25
+      ). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid
+      dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: The resolution failed for an environment that is not the current one, consider limiting the environments with `tool.uv.environments`.
+  × No solution found when resolving dependencies for split (markers: platform_machine == 'aarch64'):
+  ╰─▶ Because only libucx-cu12==1.19.0 is available and ucx-py-cu12>=0.40.0,<=0.41.0 depends on libucx-cu12>=1.15.0,<1.18, we can conclude that ucx-py-cu12>=0.40.0,<=0.41.0 cannot be used.
+      And because only the following versions of ucx-py-cu12 are available:
+          ucx-py-cu12<0.40.dev0
+          ucx-py-cu12==0.40.0
+          ucx-py-cu12>0.41.dev0
+      we can conclude that ucx-py-cu12>=0.40.dev0,<=0.41.0 cannot be used.
+      And because raft-dask-cu12==24.10.0 depends on ucx-py-cu12==0.40.* and only the following versions of raft-dask-cu12 are available:
+          raft-dask-cu12<24.10.dev0
+          raft-dask-cu12==24.10.0
+          raft-dask-cu12>24.11.dev0
+      we can conclude that raft-dask-cu12==24.10.* cannot be used.
+      And because cuml-cu12==24.10.0 depends on raft-dask-cu12==24.10.* and only the following versions of cuml-cu12 are available:
+          cuml-cu12<=24.10.0
+          cuml-cu12==24.12.0
+          cuml-cu12>25
+      we can conclude that cuml-cu12>=24.10.0,<24.12.0 cannot be used. (1)
+
+      Because only libucx-cu12==1.19.0 is available and ucx-py-cu12==0.41.0 depends on libucx-cu12>=1.15.0,<1.18, we can conclude that ucx-py-cu12==0.41.0 cannot be used.
+      And because only the following versions of ucx-py-cu12 are available:
+          ucx-py-cu12<0.41.dev0
+          ucx-py-cu12==0.41.0
+          ucx-py-cu12>0.42.dev0
+      and raft-dask-cu12==24.12.0 depends on ucx-py-cu12==0.41.*, we can conclude that raft-dask-cu12==24.12.0 cannot be used.
+      And because only the following versions of raft-dask-cu12 are available:
+          raft-dask-cu12<24.12.dev0
+          raft-dask-cu12==24.12.0
+          raft-dask-cu12>24.13.dev0
+      and cuml-cu12==24.12.0 depends on raft-dask-cu12==24.12.*, we can conclude that cuml-cu12==24.12.0 cannot be used.
+      And because we know from (1) that cuml-cu12>=24.10.0,<24.12.0 cannot be used, we can conclude that cuml-cu12>=24.10.0,<25 cannot be used.
+      And because your project depends on cuml-cu12>=24.10,<25, we can conclude that your project's requirements are unsatisfiable.
+
+      hint: `raft-dask-cu12` was requested with a pre-release marker (e.g., all of:
+          raft-dask-cu12>=24.10.dev0,<24.10.0
+          raft-dask-cu12>24.10.0,<24.11.dev0
+      ), but pre-releases weren't enabled (try: `--prerelease=allow`)
+
+      hint: `raft-dask-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (all of:
+          raft-dask-cu12>=24.10.dev0,<24.10.0
+          raft-dask-cu12>24.10.0,<24.11.dev0
+      ). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid
+      dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: `ucx-py-cu12` was requested with a pre-release marker (e.g., all of:
+          ucx-py-cu12>=0.40.dev0,<0.40.0
+          ucx-py-cu12>0.40.0,<0.41.dev0
+      ), but pre-releases weren't enabled (try: `--prerelease=allow`)
+
+      hint: `ucx-py-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (all of:
+          ucx-py-cu12>=0.40.dev0,<0.40.0
+          ucx-py-cu12>0.40.0,<0.41.dev0
+      ). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid
+      dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: `libucx-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (libucx-cu12>=1.15.0,<1.18). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default,
+      uv will only consider versions that are published on the first index that contains a given package, to avoid dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to
+      consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: `cuml-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (all of:
+          cuml-cu12>24.10.0,<24.12.0
+          cuml-cu12>24.12.0,<25
+      ). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid
+      dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: The resolution failed for an environment that is not the current one, consider limiting the environments with `tool.uv.environments`.
+  × No solution found when resolving dependencies for split (markers: platform_machine == 'aarch64'):
+  ╰─▶ Because only libucx-cu12==1.19.0 is available and ucx-py-cu12>=0.40.0,<=0.41.0 depends on libucx-cu12>=1.15.0,<1.18, we can conclude that ucx-py-cu12>=0.40.0,<=0.41.0 cannot be used.
+      And because only the following versions of ucx-py-cu12 are available:
+          ucx-py-cu12<0.40.dev0
+          ucx-py-cu12==0.40.0
+          ucx-py-cu12>0.41.dev0
+      we can conclude that ucx-py-cu12>=0.40.dev0,<=0.41.0 cannot be used.
+      And because raft-dask-cu12==24.10.0 depends on ucx-py-cu12==0.40.* and only the following versions of raft-dask-cu12 are available:
+          raft-dask-cu12<24.10.dev0
+          raft-dask-cu12==24.10.0
+          raft-dask-cu12>24.11.dev0
+      we can conclude that raft-dask-cu12==24.10.* cannot be used.
+      And because cuml-cu12==24.10.0 depends on raft-dask-cu12==24.10.* and only the following versions of cuml-cu12 are available:
+          cuml-cu12<=24.10.0
+          cuml-cu12==24.12.0
+          cuml-cu12>25
+      we can conclude that cuml-cu12>=24.10.0,<24.12.0 cannot be used. (1)
+
+      Because only libucx-cu12==1.19.0 is available and ucx-py-cu12==0.41.0 depends on libucx-cu12>=1.15.0,<1.18, we can conclude that ucx-py-cu12==0.41.0 cannot be used.
+      And because only the following versions of ucx-py-cu12 are available:
+          ucx-py-cu12<0.41.dev0
+          ucx-py-cu12==0.41.0
+          ucx-py-cu12>0.42.dev0
+      and raft-dask-cu12==24.12.0 depends on ucx-py-cu12==0.41.*, we can conclude that raft-dask-cu12==24.12.0 cannot be used.
+      And because only the following versions of raft-dask-cu12 are available:
+          raft-dask-cu12<24.12.dev0
+          raft-dask-cu12==24.12.0
+          raft-dask-cu12>24.13.dev0
+      and cuml-cu12==24.12.0 depends on raft-dask-cu12==24.12.*, we can conclude that cuml-cu12==24.12.0 cannot be used.
+      And because we know from (1) that cuml-cu12>=24.10.0,<24.12.0 cannot be used, we can conclude that cuml-cu12>=24.10.0,<25 cannot be used.
+      And because your project depends on cuml-cu12>=24.10,<25, we can conclude that your project's requirements are unsatisfiable.
+
+      hint: `raft-dask-cu12` was requested with a pre-release marker (e.g., all of:
+          raft-dask-cu12>=24.10.dev0,<24.10.0
+          raft-dask-cu12>24.10.0,<24.11.dev0
+      ), but pre-releases weren't enabled (try: `--prerelease=allow`)
+
+      hint: `raft-dask-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (all of:
+          raft-dask-cu12>=24.10.dev0,<24.10.0
+          raft-dask-cu12>24.10.0,<24.11.dev0
+      ). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid
+      dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: `ucx-py-cu12` was requested with a pre-release marker (e.g., all of:
+          ucx-py-cu12>=0.40.dev0,<0.40.0
+          ucx-py-cu12>0.40.0,<0.41.dev0
+      ), but pre-releases weren't enabled (try: `--prerelease=allow`)
+
+      hint: `ucx-py-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (all of:
+          ucx-py-cu12>=0.40.dev0,<0.40.0
+          ucx-py-cu12>0.40.0,<0.41.dev0
+      ). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid
+      dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: `libucx-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (libucx-cu12>=1.15.0,<1.18). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default,
+      uv will only consider versions that are published on the first index that contains a given package, to avoid dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to
+      consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: `cuml-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (all of:
+          cuml-cu12>24.10.0,<24.12.0
+          cuml-cu12>24.12.0,<25
+      ). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid
+      dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: The resolution failed for an environment that is not the current one, consider limiting the environments with `tool.uv.environments`.
+  × No solution found when resolving dependencies for split (markers: platform_machine == 'aarch64'):
+  ╰─▶ Because only libucx-cu12==1.19.0 is available and ucx-py-cu12>=0.40.0,<=0.41.0 depends on libucx-cu12>=1.15.0,<1.18, we can conclude that ucx-py-cu12>=0.40.0,<=0.41.0 cannot be used.
+      And because only the following versions of ucx-py-cu12 are available:
+          ucx-py-cu12<0.40.dev0
+          ucx-py-cu12==0.40.0
+          ucx-py-cu12>0.41.dev0
+      we can conclude that ucx-py-cu12>=0.40.dev0,<=0.41.0 cannot be used.
+      And because raft-dask-cu12==24.10.0 depends on ucx-py-cu12==0.40.* and only the following versions of raft-dask-cu12 are available:
+          raft-dask-cu12<24.10.dev0
+          raft-dask-cu12==24.10.0
+          raft-dask-cu12>24.11.dev0
+      we can conclude that raft-dask-cu12==24.10.* cannot be used.
+      And because cuml-cu12==24.10.0 depends on raft-dask-cu12==24.10.* and only the following versions of cuml-cu12 are available:
+          cuml-cu12<=24.10.0
+          cuml-cu12==24.12.0
+          cuml-cu12>25
+      we can conclude that cuml-cu12>=24.10.0,<24.12.0 cannot be used. (1)
+
+      Because only libucx-cu12==1.19.0 is available and ucx-py-cu12==0.41.0 depends on libucx-cu12>=1.15.0,<1.18, we can conclude that ucx-py-cu12==0.41.0 cannot be used.
+      And because only the following versions of ucx-py-cu12 are available:
+          ucx-py-cu12<0.41.dev0
+          ucx-py-cu12==0.41.0
+          ucx-py-cu12>0.42.dev0
+      and raft-dask-cu12==24.12.0 depends on ucx-py-cu12==0.41.*, we can conclude that raft-dask-cu12==24.12.0 cannot be used.
+      And because only the following versions of raft-dask-cu12 are available:
+          raft-dask-cu12<24.12.dev0
+          raft-dask-cu12==24.12.0
+          raft-dask-cu12>24.13.dev0
+      and cuml-cu12==24.12.0 depends on raft-dask-cu12==24.12.*, we can conclude that cuml-cu12==24.12.0 cannot be used.
+      And because we know from (1) that cuml-cu12>=24.10.0,<24.12.0 cannot be used, we can conclude that cuml-cu12>=24.10.0,<25 cannot be used.
+      And because your project depends on cuml-cu12>=24.10,<25, we can conclude that your project's requirements are unsatisfiable.
+
+      hint: `raft-dask-cu12` was requested with a pre-release marker (e.g., all of:
+          raft-dask-cu12>=24.10.dev0,<24.10.0
+          raft-dask-cu12>24.10.0,<24.11.dev0
+      ), but pre-releases weren't enabled (try: `--prerelease=allow`)
+
+      hint: `raft-dask-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (all of:
+          raft-dask-cu12>=24.10.dev0,<24.10.0
+          raft-dask-cu12>24.10.0,<24.11.dev0
+      ). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid
+      dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: `ucx-py-cu12` was requested with a pre-release marker (e.g., all of:
+          ucx-py-cu12>=0.40.dev0,<0.40.0
+          ucx-py-cu12>0.40.0,<0.41.dev0
+      ), but pre-releases weren't enabled (try: `--prerelease=allow`)
+
+      hint: `ucx-py-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (all of:
+          ucx-py-cu12>=0.40.dev0,<0.40.0
+          ucx-py-cu12>0.40.0,<0.41.dev0
+      ). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid
+      dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: `libucx-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (libucx-cu12>=1.15.0,<1.18). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default,
+      uv will only consider versions that are published on the first index that contains a given package, to avoid dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to
+      consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: `cuml-cu12` was found on https://pypi.nvidia.com/, but not at the requested version (all of:
+          cuml-cu12>24.10.0,<24.12.0
+          cuml-cu12>24.12.0,<25
+      ). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid
+      dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+
+      hint: The resolution failed for an environment that is not the current one, consider limiting the environments with `tool.uv.environments`.
+[2026-04-13 11:42:02] 🚀 Starting GPU environment setup...
+[2026-04-13 11:42:02] 📦 Running uv sync...
+Resolved 74 packages in 1ms
+Audited 72 packages in 1ms
+[2026-04-13 11:42:02] 📊 Installing ML core stack...
+Resolved 76 packages in 5.80s
+Downloading scikit-learn (8.7MiB)
+ Downloading scikit-learn
+Prepared 2 packages in 3.06s
+Installed 2 packages in 35ms
+ + scikit-learn==1.8.0
+ + threadpoolctl==3.6.0
+[2026-04-13 11:42:11] 📈 Installing visualization stack...
+Resolved 87 packages in 1.56s
+Downloading pillow (6.8MiB)
+Downloading matplotlib (8.3MiB)
+Downloading kiwisolver (1.4MiB)
+Downloading plotly (9.4MiB)
+Downloading fonttools (4.8MiB)
+ Downloading kiwisolver
+ Downloading fonttools
+ Downloading pillow
+ Downloading matplotlib
+ Downloading plotly
+Prepared 11 packages in 11.08s
+Installed 11 packages in 94ms
+ + contourpy==1.3.3
+ + cycler==0.12.1
+ + fonttools==4.62.1
+ + kiwisolver==1.5.0
+ + matplotlib==3.10.8
+ + narwhals==2.19.0
+ + pillow==12.2.0
+ + plotly==6.7.0
+ + pyparsing==3.3.2
+ + seaborn==0.13.2
+ + tabulate==0.10.0
+[2026-04-13 11:42:24] 🤖 Installing ML extras...
+Resolved 98 packages in 2.05s
+Downloading sqlalchemy (3.2MiB)
+Downloading statsmodels (9.9MiB)
+Downloading xgboost (125.6MiB)
+Downloading nvidia-nccl-cu12 (280.0MiB)
+ Downloading sqlalchemy
+ Downloading statsmodels
+ Downloading xgboost
+ Downloading nvidia-nccl-cu12
+Prepared 11 packages in 2m 33s
+Installed 11 packages in 73ms
+ + alembic==1.18.4
+ + colorlog==6.10.1
+ + greenlet==3.4.0
+ + mako==1.3.10
+ + nvidia-nccl-cu12==2.29.7
+ + optuna==4.8.0
+ + patsy==1.0.2
+ + sqlalchemy==2.0.49
+ + statsmodels==0.14.6
+ + tqdm==4.67.3
+ + xgboost==3.2.0
+[2026-04-13 11:45:00] 📓 Installing dev tools...
+Resolved 176 packages in 5.10s
+Downloading jedi (1.5MiB)
+Downloading debugpy (3.0MiB)
+Downloading widgetsnbextension (2.1MiB)
+Downloading nbdime (5.6MiB)
+ Downloading jedi
+ Downloading widgetsnbextension
+ Downloading debugpy
+ Downloading nbdime
+Prepared 77 packages in 6.71s
+Installed 77 packages in 123ms
+ + anyio==4.13.0
+ + argon2-cffi==25.1.0
+ + argon2-cffi-bindings==25.1.0
+ + arrow==1.4.0
+ + asttokens==3.0.1
+ + attrs==26.1.0
+ + beautifulsoup4==4.14.3
+ + bleach==6.3.0
+ + certifi==2026.2.25
+ + cffi==2.0.0
+ + charset-normalizer==3.4.7
+ + colorama==0.4.6
+ + comm==0.2.3
+ + debugpy==1.8.20
+ + decorator==5.2.1
+ + defusedxml==0.7.1
+ + executing==2.2.1
+ + fastjsonschema==2.21.2
+ + fqdn==1.5.1
+ + gitdb==4.0.12
+ + gitpython==3.1.46
+ + idna==3.11
+ + ipykernel==7.2.0
+ + ipython==9.10.1
+ + ipython-pygments-lexers==1.1.1
+ + ipywidgets==8.1.8
+ + isoduration==20.11.0
+ + jedi==0.19.2
+ + jsonpointer==3.1.1
+ + jsonschema==4.26.0
+ + jsonschema-specifications==2025.9.1
+ + jupyter-client==8.8.0
+ + jupyter-core==5.9.1
+ + jupyter-events==0.12.0
+ + jupyter-server==2.17.0
+ + jupyter-server-terminals==0.5.4
+ + jupyterlab-pygments==0.3.0
+ + jupyterlab-widgets==3.0.16
+ + lark==1.3.1
+ + matplotlib-inline==0.2.1
+ + mistune==3.2.0
+ + nbclient==0.10.4
+ + nbconvert==7.17.1
+ + nbdime==4.0.4
+ + nbformat==5.10.4
+ + nest-asyncio==1.6.0
+ + overrides==7.7.0
+ + pandocfilters==1.5.1
+ + parso==0.8.6
+ + pexpect==4.9.0
+ + platformdirs==4.9.6
+ + prometheus-client==0.25.0
+ + prompt-toolkit==3.0.52
+ + ptyprocess==0.7.0
+ + pure-eval==0.2.3
+ + pycparser==3.0
+ + python-json-logger==4.1.0
+ + pyzmq==27.1.0
+ + referencing==0.37.0
+ + requests==2.33.1
+ + rfc3339-validator==0.1.4
+ + rfc3986-validator==0.1.1
+ + rfc3987-syntax==1.1.0
+ + rpds-py==0.30.0
+ + send2trash==2.1.0
+ + smmap==5.0.3
+ + soupsieve==2.8.3
+ + stack-data==0.6.3
+ + terminado==0.18.1
+ + tinycss2==1.4.0
+ + traitlets==5.14.3
+ + uri-template==1.3.0
+ + wcwidth==0.6.0
+ + webcolors==25.10.0
+ + webencodings==0.5.1
+ + websocket-client==1.9.0
+ + widgetsnbextension==4.0.15
+[2026-04-13 11:45:12] 📦 Installing kaggle CLI...
+Resolved 183 packages in 2.26s
+Prepared 7 packages in 367ms
+Installed 7 packages in 24ms
+ + kaggle==1.8.4
+ + kagglesdk==0.1.18
+ + pandas-stubs==3.0.0.260204
+ + protobuf==7.34.1
+ + pynvim==0.6.0
+ + python-slugify==8.0.4
+ + text-unidecode==1.3
+[2026-04-13 11:45:15] 🧪 Running validation...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'cupy'

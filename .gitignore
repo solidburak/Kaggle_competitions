@@ -9,6 +9,7 @@ wheels/
 # Ignore environments
 .venv/
 .ipynb_checkpoints/
+**/.kaggle_auth.sh
 
 # Global Monorepo Ignore
 # ----------------------

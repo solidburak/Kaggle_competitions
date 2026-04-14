@@ -1,0 +1,36 @@
+[project]
+name = "nyc-taxi-trip-duration"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "ipywidgets>=8.1.8",
+    "joblib>=1.5.3",
+    "matplotlib>=3.10.8",
+    "nbdime>=4.0.4",
+    "optuna>=4.8.0",
+    "pandas<2.3",
+    "plotly>=6.7.0",
+    "pynvim>=0.6.0",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.6",
+    "xgboost>=3.2.0",
+    "cudf-cu12>=24.10.1",
+    "cuml-cu12>=24.10.1",
+    "pandas-stubs>=3.0.0.260204",
+    "tabulate>=0.10.0",
+    "cupy-cuda12x>=14.0.1",
+]
+
+[[tool.uv.index]]
+name = "nvidia"
+url = "https://pypi.nvidia.com/"
+explicit = true
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"

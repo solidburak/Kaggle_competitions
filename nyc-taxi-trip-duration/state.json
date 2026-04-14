@@ -1,0 +1,8 @@
+{
+  "uv_sync": true,
+  "ml_core": true,
+  "viz": true,
+  "ml_extra": true,
+  "dev": true,
+  "kaggle": true
+}
